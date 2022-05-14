@@ -20,3 +20,7 @@ header h3{
     padding: 10px;
     background-color: yellow;
 }
+#question-one, #question-two,  #question-three,  #question-four,  #question-five{
+    margin-left: 7%;
+    background-color: purple;
+}
