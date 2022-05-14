@@ -20,6 +20,7 @@ header h1{
 }
 #question-one, #question-two,  #question-three,  #question-four,  #question-five{
     margin-left: 7%;
+    background-color: beige;
 }
 
 #question-one>:first-child,  #question-two>:first-child,  #question-three>:first-child,  #question-four>:first-child,  #question-five>:first-child{
@@ -34,3 +35,4 @@ header h1{
     left: 40%;
     margin: 10px;
 }
+.button

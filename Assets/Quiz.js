@@ -8,10 +8,12 @@ var correctAnswers={
 };
 //capture data when users submit answers//
 let form=document.getElementById("form")
+
 var score=0;
+
 form.addEventListener("submit",function (event)){
     //alert("Go and submit")
-    Event.preventDefault();
+    event.preventDefault();
 
     var userAnswers=newFormData(form);
     getData(userAnswers);
@@ -43,6 +45,7 @@ function getData(userAnswers){
     }
 
     //results printed on screen//
+    
     let userScore = document.getElementsByClassName(".score");
     // userScore.textContent = 'You Scored :'+ '' + score; 
     document.write ("Your score is:  " + '' + score);
