@@ -35,4 +35,9 @@ header h1{
     left: 40%;
     margin: 10px;
 }
-.button
+.button:hover{
+        color: white;
+        background-color:peru;
+    }
+}
+
