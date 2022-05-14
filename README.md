@@ -38,13 +38,13 @@ This is a Simple quiz application that has the following features:
 
   * **Simple Interface**
 
- ![Quiz-Application Interface](/Images/Quiz-App.png)
+ ![Quiz-Application Interface]
 
  <hr>
 
  + **Submitting answers via button click.**
 
- ![Quiz-Application Submit button](/Images/submit.png)
+ ![Quiz-Application Submit button]
 
  <hr>
 
@@ -74,10 +74,6 @@ Technologies used are:
 
 # Live Site
 
-#### **https://reuben-kipkemboi.github.io/Quiz-Application/**
+#### ****
 
-# The design 
-+ https://www.figma.com/file/AvK6ISAPMG9Tx555NNjHB6/Quiz-app?node-id=0%3A1
 
-# Live Demo
-* https://drive.google.com/file/d/1pfnxgSbHkEfDaIzyleZaYVxCYqvtvKSc/view
