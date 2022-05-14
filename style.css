@@ -1,7 +1,22 @@
 body{
     margin: 0px;
     padding: 0px;
+    width: 90%;
+    box-sizing: border-box;
 }
 header{
-    
+    background-color: green;
+    text-align: center;
+    font-weight: bolder;
+}
+header h3{
+    color: black;
+    font-size: x-large;
+}
+.note{
+    text-align: center;
+    font-weight: 500;
+    color: rgb(177, 79, 79);
+    padding: 10px;
+    background-color: yellow;
 }
