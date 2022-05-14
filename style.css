@@ -5,11 +5,10 @@ body{
     box-sizing: border-box;
 }
 header{
-    background-color: green;
     text-align: center;
     font-weight: bolder;
 }
-header h3{
+header h1{
     color: black;
     font-size: x-large;
 }
@@ -18,9 +17,20 @@ header h3{
     font-weight: 500;
     color: rgb(177, 79, 79);
     padding: 10px;
-    background-color: yellow;
 }
 #question-one, #question-two,  #question-three,  #question-four,  #question-five{
     margin-left: 7%;
-    background-color: purple;
+}
+
+#question-one>:first-child,  #question-two>:first-child,  #question-three>:first-child,  #question-four>:first-child,  #question-five>:first-child{
+    font-weight: bolder;
+    font-size: larger;
+}
+.button{
+    color: white;
+    background-color: black;
+    padding: 10px 40px;
+    position: absolute;
+    left: 40%;
+    margin: 10px;
 }
