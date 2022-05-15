@@ -6,13 +6,13 @@ var correctAnswers={
     question4 :"Script"
     question5 :"for"
 };
-//capture data when users submit answers//
+
 let form=document.getElementById("form")
 
 var score=0;
 
 form.addEventListener("submit",function (event)){
-    //alert("Go and submit")
+    
     event.preventDefault();
 
     var userAnswers=newFormData(form);
