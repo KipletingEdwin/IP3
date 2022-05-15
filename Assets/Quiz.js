@@ -1,4 +1,4 @@
-//storing correct values here//
+
 var correctAnswers={
     question1 :"HTML"
     question2 :"ECMAscript"
@@ -19,7 +19,7 @@ form.addEventListener("submit",function (event)){
     getData(userAnswers);
 }
 
-//calculating score after submission//
+
 function getData(userAnswers){
     var question1 = userAnswers.get("question1");
     var question2 = userAnswers.get("question2");
