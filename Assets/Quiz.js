@@ -60,9 +60,10 @@ var correctAnswers = {
       }else {
           document.write( "You have to retake the quiz");
         }
-      var delayInMilliseconds = 7000; //7 seconds
+      var delayInMilliseconds = 7000; 
       setTimeout(function() {
-        //Clearing of form fields after some seconds
+        
+        
         window.location.reload();
       }, delayInMilliseconds);
   }
