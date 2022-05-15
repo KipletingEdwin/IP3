@@ -12,7 +12,7 @@ let form = document.getElementById("form");
 var score = 0;
 
 form.addEventListener ("submit", function (event) { 
-  // alert("Hello go and submit it")
+  
   event.preventDefault();
   var userAnswers = new FormData(form);   //userData is that submitted data.
   getData(userAnswers);
