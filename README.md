@@ -59,7 +59,6 @@ To install one requires:
 Technologies used are:
 * HTML5- Hyper-text markup Language to create structures of the web-page.
 * CSS3- Cascading Style sheet was used to style the page and its contents and also make the page        responsive.
-* Bootstrap- This enables responsiveness of the website and also use of its classes to style.
 * Javascript - Enables the display of the score and the calculations done. Therefore, enables us to dynamically update the content.
 
 # License Information.
