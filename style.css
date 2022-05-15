@@ -27,7 +27,7 @@ header h1{
     font-weight: bolder;
     font-size: larger;
 }
-.button{
+.btn{
     color: white;
     background-color: black;
     padding: 10px 40px;
@@ -35,7 +35,7 @@ header h1{
     left: 40%;
     margin: 10px;
 }
-.button:hover{
+.btn:hover{
         color: white;
         background-color:peru;
     }
