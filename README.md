@@ -2,7 +2,10 @@
 #  INDEPENDENT PROJECT THREE
 # A Javascript Quiz-Application
 
-# kIPLETING EDWIN.
+# KIPLETING EDWIN.
+
+# SCREENSHOT
+![Screenshot from 2022-05-16 07-40-41](https://user-images.githubusercontent.com/104434473/168523617-dfe1e925-a3c0-4549-8f1d-8727ad6d0cf8.png)
 
 <p>A simple  web application that enables students who have finished a javascript course to undertake a test.
 The application is composed of a form that has questions and multiple choices to that question.Five questions available and with there answers in multiple choices.
@@ -40,7 +43,7 @@ This is a Simple quiz application that has the following features:
 
  ![Quiz-Application Interface]
 
- <hr>
+ 
 
  + **Submitting answers via button click.**
 
