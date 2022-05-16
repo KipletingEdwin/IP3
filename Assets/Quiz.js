@@ -2,7 +2,7 @@
 var correctAnswers={
     question1 :"HTML"
     question2 :"ECMAscript"
-    question3 :"Yes"
+    question3 :"Images"
     question4 :"Script"
     question5 :"for"
 };
