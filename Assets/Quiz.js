@@ -1,9 +1,9 @@
 
 var correctAnswers={
-    question1 :"HTML"
-    question2 :"ECMAscript"
-    question3 :"Images"
-    question4 :"Script"
+    question1 :"HTML",
+    question2 :"ECMAscript",
+    question3 :"Images",
+    question4 :"Script",
     question5 :"for"
 };
 
@@ -11,13 +11,13 @@ let form=document.getElementById("form")
 
 var score=0;
 
-form.addEventListener("submit",function (event)){
+form.addEventListener("submit",function (event){
     
     event.preventDefault();
 
     var userAnswers=newFormData(form);
     getData(userAnswers);
-}
+});
 
 
 function getData(userAnswers){
@@ -44,10 +44,11 @@ function getData(userAnswers){
       score +=20;
     }
 
-    //results printed on screen//
+    
     
     let userScore = document.getElementsByClassName(".score");
-    // userScore.textContent = 'You Scored :'+ '' + score; 
+    
+
     document.write ("Your score is:  " + '' + score);
 
     if(score >= 80) {
@@ -59,6 +60,14 @@ function getData(userAnswers){
           document.write( "You have to retake the quiz");
         }
 
-        var delayInMilliseconds=7000;
+         var delayInMilliseconds=7000;
+         globalThis.delayInMilliseconds;
+
+         setTimeout(function(){
+
+
+        }, delayInMilliseconds); 
         window.location.reload();
-    }delayInMilliseconds);
+        };
+
+        
